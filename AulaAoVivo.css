@@ -5,10 +5,38 @@
 
 .PrimeiraCaixa{
     background-color: black;
+    width: 50%;
+    margin: auto;
+}
+
+
+.PrimeiraCaixaContainer{
+    background-color: green;
+}
+
+.PrimeiraCaixa img{
+    width: 100px;
+    padding: 15px 0;
+}
+
+.PrimeiraCaixa ul {
+    background-color: black;
+    display: inline;
+    float: right;
+    padding-top: 20px;
+}
+
+.PrimeiraCaixa li{
+    display: inline-block;
+    font-size: 12px;
+    padding-inline: 10px;
+}
+
+.SegundaCaixa{
+    background-color: blue;
     color: white;
 }
 
-.header{
-    background-color: blue;
-    color: white;
+body{
+    font-family: "Open Sans", serif;
 }
