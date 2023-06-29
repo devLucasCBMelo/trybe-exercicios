@@ -11,7 +11,7 @@
 
 
 .PrimeiraCaixaContainer{
-    background-color: green;
+    background-color: black;
 }
 
 .PrimeiraCaixa img{
@@ -32,8 +32,36 @@
     padding-inline: 10px;
 }
 
+.PrimeiraCaixa a{
+    text-decoration: none;
+    color: white;
+}
+
 .SegundaCaixa{
     background-color: blue;
+    color: white;
+    padding: 72px 0px 40px 0px;
+}
+
+.SegundaCaixaContainer{
+    width: 60%;
+    margin: auto;
+}
+
+.SegundaCaixaContainer h1{
+    font-size: 30px;
+}
+
+.SegundaCaixaContainer h2{
+    font-size: 18px;
+    font-weight: 10px;
+}
+
+.SegundaCaixaContainer h1, .SegundaCaixaContainer h2{
+    padding-bottom: 20px;
+}
+
+.SegundaCaixaContainer a{
     color: white;
 }
 
