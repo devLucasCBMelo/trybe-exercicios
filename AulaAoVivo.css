@@ -54,7 +54,7 @@
 
 .SegundaCaixaContainer h2{
     font-size: 18px;
-    font-weight: 10px;
+    font-weight: 10;
 }
 
 .SegundaCaixaContainer h1, .SegundaCaixaContainer h2{
@@ -63,8 +63,31 @@
 
 .SegundaCaixaContainer a{
     color: white;
+    font-size: 10px;
 }
 
+.SegundaCaixaContainer p{
+    color: white;
+    font-size: 10px;
+    padding-top: 20px;
+}
 body{
     font-family: "Open Sans", serif;
+}
+
+.premium-buttons{
+    display: inline-block;
+    font-weight: 400px;
+    border-radius: 100px;
+    padding: 12px 20px;
+    font-size: 11px; 
+    font-weight: 600;
+}
+
+.Comece-Agora{
+    background-color: black;
+}
+
+.Ver-Planos{
+    border: 1px solid white;
 }
