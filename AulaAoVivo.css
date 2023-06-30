@@ -97,5 +97,23 @@ body{
 .Comece-Agora:hover, .Ver-Planos:hover{
     transition: all 600ms ease;
     background-color: pink;
-    padding: 20px 30px;
+    padding: 15px 20px;
+}
+
+.why-premium{
+    text-align: center;
+}
+
+.why-premium div{
+    display: inline-block;
+    margin-bottom: 50px;
+    margin: 10px;
+}
+
+.why-premium h2{
+    margin: 20px 0;
+}
+
+.why-premium img{
+    margin-bottom: 20px;
 }
