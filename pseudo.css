@@ -1,4 +1,16 @@
-p, h1, li{
+p, h1{
     text-align: center;
     color: red;
+}
+
+li:hover{
+    background-color: yellow;
+}
+
+li{
+    list-style: none;
+}
+
+li:active{
+    font-style: italic;
 }
