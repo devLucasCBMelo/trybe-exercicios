@@ -7,6 +7,7 @@
     background-color: black;
     width: 50%;
     margin: auto;
+    min-width: 500px;
 }
 
 
@@ -45,6 +46,7 @@
 
 .SegundaCaixaContainer{
     width: 60%;
+    min-width: 500px;
     margin: auto;
 }
 
@@ -90,4 +92,10 @@ body{
 
 .Ver-Planos{
     border: 1px solid white;
+}
+
+.Comece-Agora:hover, .Ver-Planos:hover{
+    transition: all 600ms ease;
+    background-color: pink;
+    padding: 20px 30px;
 }
