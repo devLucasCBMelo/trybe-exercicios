@@ -131,3 +131,11 @@ for (let index = 0; index < numbers.length; index +=1) {
 }
 
 console.log(soma);
+
+//Outro exemplo: 
+
+const listaFeira = ["Sabão em pó","Macarrão","Leite Condensado","Refrigerante","Maçã","Alface","Nescau"];
+
+for (let index = 0; index < listaFeira.length; index = index + 1) {
+    console.log(`${index} - ${listaFeira[index]}`);
+}
