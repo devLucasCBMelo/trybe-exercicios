@@ -118,3 +118,16 @@ if (salarioBruto <= 1556.94){
 } else if (salarioBruto < 5189.82){
     aliquotaINSS = 570.99;
 }
+
+
+// exemplo prático: somando os elementos de uma array
+
+const numbers = [2,3,10,24,1,32,14,50];
+
+let soma = 0;
+
+for (let index = 0; index < numbers.length; index +=1) {
+    soma = soma + numbers[index];
+}
+
+console.log(soma);
