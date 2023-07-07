@@ -42,62 +42,11 @@ for (let index = 1; index < numbers.length; index = index +1){
 
 console.log(maiorNumero);
 
-//Descobrindo os valores ímpares ////////////////////////////////////////////////////////////////////////
-
-let checar = 0;
-
-for (let index = 0; index < numbers.length; index = index +1){
-    if(numbers[index] %2 !== 0){
-        checar = checar + 1;
-    }
-};
-
-if(checar === 0){
-    console.log("Nenhum valor ímpar encontrado!");
-} else {
-    console.log(checar);
-}
-
-//Desafio fatorial ////////////////////////////////////////////////////////////////////////
 
 
-let fatorial = 10;
-let array = [];
-let multiplica = 1;
-
-for (let index = 1; index <= fatorial; index = index + 1){
-    array.push(index);
-    multiplica = multiplica * index;
-}
-
-console.log(`O resultado do fatorial de ${fatorial} é: ${multiplica}`);
-console.log(array);
 
 
-//Desafio de inverter palavra ////////////////////////////////////////////////////////////////////////
 
-let word = 'tryber';
 
-let reserveWord = "";
 
-reserveWord = word.split("").reverse().join("");
 
-console.log(reserveWord);
-
-//Desafio dos asteriscos ////////////////////////////////////////////////////////////////////////
-
-let n = 5;
-let symbol = "*"
-let inputLine = "";
-
-for (let lineIndex = 0; lineIndex < n; lineIndex = lineIndex + 1){
-    inputLine = inputLine + symbol;
-    console.log(inputLine);
-
-};
-
-for (let lineIndex = 0; lineIndex < n; lineIndex = lineIndex +1){
-    console.log(inputLine);
-}
-
-//Desafio dos asteriscos em pirâmide ////////////////////////////////////////////////////////////////////////
